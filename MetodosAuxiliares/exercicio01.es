@@ -1,4 +1,5 @@
 //Altere o código a seguir para utilizar o método forEach de modo que a saída permaneça a mesma.
+console.log("Inicio Exercicio 01");
 var numeros = [0,1,2,3,4,5];
 for(var i = 0; i<= numeros.length; i++) {
     if(i % 2 === 0) {
@@ -20,3 +21,5 @@ numeros.forEach(function(numero){
     if(numero % 2 === 0 ) console.log(numero + ' é par');
     else console.log(numero + ' é ímpar');
 });
+
+console.log("Fim Exercicio 01");
