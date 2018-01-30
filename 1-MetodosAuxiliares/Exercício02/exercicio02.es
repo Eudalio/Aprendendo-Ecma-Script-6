@@ -5,12 +5,11 @@ console.log("Inicio Exercicio 02");
 console.log("Exemplo: dobrar([1,2,3]) → [2,4,6]");
 
 var numeros = [1,2,3];
-var dobrar = [];
-numeros.map(function(numero){
-    dobrar.push(numero * 2);
+var dobro = numeros.map(function(numero){
+    return numero * 2;
 });
 
-console.log(dobrar);
+console.log(dobro);
 console.log(numeros);
 
 console.log("Fim Exercicio 02");
