@@ -9,8 +9,9 @@ var alunos = [
     { nome: 'Tiago', media: 6.0 }
   ];
 
-  var aprovados = alunos.filter(function(aluno){
-    return aluno.media >= 7;
+function aprovados(alunos, media){
+  return alunos.filter(function(aluno){
+    return aluno.media >= media;
   });
-
-  console.log(aprovados);
+}
+  console.log(aprovados(alunos, 7));
