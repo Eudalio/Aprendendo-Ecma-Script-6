@@ -1,0 +1,2 @@
+console.log(`Uma prática comum dos desenvolvedores é deixar o nome das variáveis que representam constantes em caixa alta. Como por exemplo, uma variável que armazena uma chave de API de um webservice. Com o ES6, temos uma maneira melhor de representar isso. Que maneira é essa?`);
+console.log(`R: Agora é possível utilizar o const para declarar esses tipos de variáveis. Além de revelar logo de cara que o valor armazenada em uma variável deste tipo é constante, o próprio JavaScript te impede de atribuir um novo valor a ela, dando mais segurança a constante.`);
